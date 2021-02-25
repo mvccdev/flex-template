@@ -1,5 +1,5 @@
 {
-	"name": "github-template",
+	"name": "flex-template",
 	"version": "1.0.0",
 	"description": "",
 	"author": "Moraine Valley Community College",
@@ -8,6 +8,21 @@
 		"mvcc"
 	],
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"build": "parcel build index.html",
+		"watch": "parcel index.html"
+	},
+	"staticFiles": {
+		"staticPath": "src/public",
+        "watcherGlob": "**"
+	},
+	"devDependencies": {
+		"cssnano": "^4.1.10",
+		"marked": "^0.8.0",
+		"page.js": "^4.13.3",
+		"parcel-plugin-clean-dist": "0.0.6",
+		"parcel-plugin-static-files-copy": "^2.3.1"
+	},
+	"dependencies": {
+		"generic": "^0.1.1"
 	}
 }

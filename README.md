@@ -2,7 +2,7 @@
 
 # Github Template
 
-This template is used to create other GitHub repositories used by the college. Please ignore the remainder of this README.
+This template is used to create websites for our internal CMS.
 
 [Documentation](doc/toc.md)
 
@@ -15,6 +15,7 @@ A basic understanding of the following skills are necessary to use this project.
 * [ES6](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [OOCSS](https://www.keycdn.com/blog/oocss)
 * [BEM](https://en.bem.info/)
+* [Page.js](https://visionmedia.github.io/page.js/)
 
 ## Tool Dependencies
 
@@ -29,8 +30,8 @@ Install the following tools to use this project in your local development enviro
 
 Follow these steps to install this project.
 
-	git clone https://github.com/github-template/github-template.git
-	cd github-template
+	git clone https://github.com/flex-template/flex-template.git
+	cd flex-template
 	npm install
 	npm run watch
 
@@ -42,6 +43,10 @@ Use the following CL commands to test or compile this project:
 | ------------- | ---------------------------------------------------- |
 | npm run watch | Test the project in a local development server       |
 | npm run build | Build the project                                    |
+
+## Known Issues
+
+* `parcel-plugin-static-files-copy` does not move new files over during a watch.
 
 ## Contributing
 
