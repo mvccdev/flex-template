@@ -1,8 +1,8 @@
 ![](https://img.shields.io/static/v1?label=category&message=template&color=red)
 
-# Github Template
+# Flex Template
 
-This template is used to create websites for our internal CMS.
+This template is used to create websites for our Flex CMS.
 
 [Documentation](doc/toc.md)
 
@@ -15,7 +15,7 @@ A basic understanding of the following skills are necessary to use this project.
 * [ES6](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [OOCSS](https://www.keycdn.com/blog/oocss)
 * [BEM](https://en.bem.info/)
-* [Page.js](https://visionmedia.github.io/page.js/)
+* [Page.js](https://visionmedia.github.io/page.js/) (if you are creating custom routes)
 
 ## Tool Dependencies
 
