@@ -1,0 +1,13 @@
+{
+	"name": "github-template",
+	"version": "1.0.0",
+	"description": "",
+	"author": "Moraine Valley Community College",
+	"license": "MIT",
+	"keywords": [
+		"mvcc"
+	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	}
+}
